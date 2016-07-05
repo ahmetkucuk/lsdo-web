@@ -1,50 +1,72 @@
-/*!
- * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
-
-.hero-spacer {
-    margin-top: 50px;
+.navbar-default {
+  background-color: #1cb1bf;
+  border-color: #a6e3f0;
+}
+.navbar-default .navbar-brand {
+  color: #f3f7f3;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #0a94a1;
+}
+.navbar-default .navbar-text {
+  color: #f3f7f3;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f3f7f3;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #0a94a1;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #0a94a1;
+  background-color: #a6e3f0;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #0a94a1;
+  background-color: #a6e3f0;
+}
+.navbar-default .navbar-toggle {
+  border-color: #a6e3f0;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #a6e3f0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f3f7f3;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f3f7f3;
+}
+.navbar-default .navbar-link {
+  color: #f3f7f3;
+}
+.navbar-default .navbar-link:hover {
+  color: #0a94a1;
 }
 
-.hero-feature {
-    margin-bottom: 30px;
-}
-
- #sidebar.affix-top {
-    position: static;
-    margin-top:30px;
-    width:228px;
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f3f7f3;
   }
-
-  #sidebar.affix {
-    position: fixed;
-    top:70px;
-    width:228px;
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #0a94a1;
   }
-
-footer {
-    margin: 50px 0;
-}
-
-.navbar-custom {
-    background-color:#B40CC7;
-    color:#ffffff;
-    border-radius:0;
-}
-
-.navbar-custom .navbar-nav > li > a {
-    color:#fff;
-}
-.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color:transparent;
-}
-.navbar-custom .navbar-brand {
-    color:#eeeeee;
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #0a94a1;
+    background-color: #a6e3f0;
+  }
 }
