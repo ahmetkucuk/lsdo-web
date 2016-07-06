@@ -1,3 +1,5 @@
-PG-Trajectory Web Page.
+LSDO is a Large-scale Solar Dynamics Observatory image dataset for retrieval applications.
 
-Http://pg-trajectory.dmlab.cs.gsu.edu
+LSDO Web Page:
+
+http://lsdo.dmlab.cs.gsu.edu/
